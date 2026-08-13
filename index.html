@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Khushi Handicrafts & Marble | Rajasthan</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+  <a href="#home" class="logo">
+    <span>KHUSHI</span>
+    <small>HANDICRAFTS & MARBLE</small>
+  </a>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="header-buttons">
+
+    <button id="searchButton" title="Search">
+      🔍
+    </button>
+
+    <button id="cartButton" title="Cart">
+      🛒
+      <span id="cartCount">0</span>
+    </button>
+
+    <button id="menuButton" class="menu-button">
+      ☰
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- ================= SEARCH ================= -->
+
+<div class="search-area" id="searchArea">
+
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search handicrafts, marble, decor..."
+  >
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <p class="small-title">
+      ART • CRAFT • HERITAGE
+    </p>
+
+    <h1>
+      Timeless Art From
+      <span>Rajasthan</span>
+    </h1>
+
+    <p>
+      Discover beautiful handcrafted treasures, elegant marble art
+      and traditional Rajasthani creations made to bring culture
+      and beauty into your home.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#products" class="main-button">
+        Explore Collection
+      </a>
+
+      <a href="#about" class="outline-button">
+        Our Story
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+  <div class="feature">
+    <div class="feature-icon">🏺</div>
+    <h3>Handcrafted</h3>
+    <p>Beautifully crafted traditional products.</p>
+  </div>
+
+  <div class="feature">
+    <div class="feature-icon">💎</div>
+    <h3>Premium Quality</h3>
+    <p>Selected materials and detailed finishing.</p>
+  </div>
+
+  <div class="feature">
+    <div class="feature-icon">🚚</div>
+    <h3>Safe Delivery</h3>
+    <p>Carefully packed for safe delivery.</p>
+  </div>
+
+  <div class="feature">
+    <div class="feature-icon">❤️</div>
+    <h3>Made With Love</h3>
+    <p>Traditional art with a modern touch.</p>
+  </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section" id="categories">
+
+  <div class="section-title">
+
+    <p>DISCOVER OUR COLLECTION</p>
+
+    <h2>Shop By Category</h2>
+
+  </div>
+
+  <div class="categories">
+
+    <div class="category-card" onclick="filterProducts('Marble')">
+
+      <img
+        src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80"
+        alt="Marble Decor"
+      >
+
+      <div>
+        <h3>Marble Art</h3>
+        <p>Elegant marble creations</p>
+      </div>
+
+    </div>
+
+
+    <div class="category-card" onclick="filterProducts('Handicraft')">
+
+      <img
+        src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?auto=format&fit=crop&w=900&q=80"
+        alt="Handicrafts"
+      >
+
+      <div>
+        <h3>Handicrafts</h3>
+        <p>Traditional handmade art</p>
+      </div>
+
+    </div>
+
+
+    <div class="category-card" onclick="filterProducts('Decor')">
+
+      <img
+        src="https://images.unsplash.com/photo-1602523961358-f9f03dd557db?auto=format&fit=crop&w=900&q=80"
+        alt="Home Decor
